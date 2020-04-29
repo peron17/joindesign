@@ -12,6 +12,7 @@ This repository is part of a test for joining a company.
 3. Laravel
    - Prerequisite
       - Go to <b>laravel</b> folder
+      - Run <code>composer update</code>
       - Run <code>php artisan serve</code> to run application. Open your browser, then type http://localhost:8000, press Enter.
 
    * TCPDF
