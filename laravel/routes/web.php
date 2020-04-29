@@ -27,3 +27,8 @@ Route::get('/order/{id}', 'OrderController@show')->name('order.detail');
 Route::post('/redeem/{id}', 'OrderController@redeem')->name('redeem');
 Route::get('/payment/{id}', 'OrderController@payment')->name('order.payment');
 Route::get('/order', 'OrderController@list')->name('order');
+
+// TCPDF
+Route::group(['prefix' => 'pdf'], function () {
+    Route::get('/sample', 'PDFController@sample');
+});
