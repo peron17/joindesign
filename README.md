@@ -12,6 +12,7 @@ This repository is part of a test for joining a company.
 3. Laravel
    - Prerequisite
       - Go to <b>laravel</b> folder
+      - Copy file <code>.env.example</code> then rename it to be <code>.env</code>, then edit it to connect with your database.
       - Run <code>composer update</code>
       - Run <code>php artisan serve</code> to run application. Open your browser, then type http://localhost:8000, press Enter.
 
