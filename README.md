@@ -10,6 +10,7 @@ This repository is part of a test for joining a company.
 3. Laravel
    - TCPDF
    - Commerce
+      - Go to <b>laravel</b> folder
       - Run <code>php artisan migrate</code> to create tables
       - Run <code>php artisan db:seed</code> to insert fake data to tables
       - Run <code>php artisan serve</code> to run application. Open your browser, then type http://localhost:8000, press Enter.
