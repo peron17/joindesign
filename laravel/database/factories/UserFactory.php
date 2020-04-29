@@ -2,9 +2,11 @@
 
 /** @var \Illuminate\Database\Eloquent\Factory $factory */
 
+use App\Product;
 use App\User;
 use Faker\Generator as Faker;
 use Illuminate\Support\Str;
+use \Bezhanov\Faker\ProviderCollectionHelper as Bezhanov;
 
 /*
 |--------------------------------------------------------------------------
