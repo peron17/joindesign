@@ -3,10 +3,11 @@ This repository is part of a test for joining a company.
 
 # Questions
 1. Problem Solving
-   - path : problem_solving/index.php
+   - copy folder <code>problem_solving/index.php</code> to your <code>www</code> folder if you use wamp or <code>htdocs</code> folder if you use xampp.
+   - then you can check the result by type <code>http://localhost/problem_solving</code> on your browser.
 
 2. Database
-
+   - execute file <code>database/query.sql</code> on your database (make sure you already have <b>employees</b> table).
 3. Laravel
    - Go to <b>laravel</b> folder
    - Run <code>php artisan serve</code> to run application. Open your browser, then type http://localhost:8000, press Enter.
